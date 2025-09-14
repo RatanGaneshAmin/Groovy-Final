@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flexbox;
+    scrollbar-color: color(0,0);
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+html::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(66, 123, 152);
+    border-radius: 0.3em;
+}
+body{
+    margin: 0;
+    background-image: url("../img/starry-night-sky_1048-11828.avif");
+}
+.topnav{
+    padding : 50px;
+    background-color: rgb(0, 0, 10);
+}
+.movie{
+    padding-bottom: 20px;
+    margin-top:-13px;
+    float: left;
+    text-decoration: none;
+    color: rgb(151, 210, 239);
+    font-style: bold;
+    font-size: 1.2rem;
+}
+.movie:hover{
+    color: rgb(20, 103, 103);
+}
+.signin{
+    padding-bottom: 20px;
+    margin-top:-13px;
+    float: right;
+    text-decoration: none;
+    color: rgb(151, 210, 239);
+    font-style: bold;
+    font-size: 1.2rem;
+}
+.signin:hover{
+    color: rgb(20, 103, 103);
+}
+.search{
+    float: right;
+    margin-top:-16px;
+}
+.searchbox {
+    border-radius: 0.7em;
+    height: 30px;
+    background-color: rgb(1, 26, 26);
+    border: none;
+    width: 200px;
+    color: white;
+}
+.thumbnail{
+    /*padding-top: 40px;*/
+    height:330px;
+    width:270px;
+    border-radius: 0.6em;
+   
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 40px;
+    padding-top:50px;
+}
+.card{
+    padding: 10px;
+    border-radius: 0.5em;
+    /*background-color: rgb(0, 2, 25);*/
+    background-color: rgb(1, 2, 18);
+    height:420px;
+}
+.card :hover{
+    cursor: pointer;
+    h3{
+        color: aqua;
+    }
+}
+h3{
+    color: white;
+    text-align: center;
+    background-color: rgb(1, 2, 18);
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+h1{
+    position:absolute;
+    top: 23%;
+    padding: 20px;
+    margin-left:80px;
+    max-width: 30%;
+    color: rgb(149, 233, 233);
+}
+h2{
+    text-align:left;
+    position:absolute;
+    top: 38%;
+    padding: 20px;
+    margin-left:60px;
+    max-width: 30%;
+    color: aquamarine;
+}
+.footer{
+    padding: 25px;
+    margin-top: 10px;
+    /*background-color: black;*/
+    /*position: absolute;
+    top:88%;*/
+    width: 1524px;
+}
+.foot{
+    text-align: center;
+    color: rgb(151, 210, 239);
+    font-size: 18px;
+}

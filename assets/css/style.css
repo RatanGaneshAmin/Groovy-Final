@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flexbox;
+    scrollbar-color: color(0,0);
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+html::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(34, 30, 67);
+    border-radius: 0.3em;
+}
+body{
+    margin: 0;
+    background-image: url("../img/starry-night-sky_1048-11828.avif");
+}
+.topnav{
+    padding : 50px;
+    background-color: rgb(0, 0, 10);
+}
+.movie{
+    padding-bottom: 20px;
+    margin-top:-13px;
+    float: left;
+    text-decoration: none;
+    color: rgb(151, 210, 239);
+    font-style: bold;
+    font-size: 1.2rem;
+}
+.movie:hover{
+    color: rgb(20, 103, 103);
+}
+.signin{
+    padding-bottom: 20px;
+    margin-top:-13px;
+    float: right;
+    text-decoration: none;
+    color: rgb(151, 210, 239);
+    font-style: bold;
+    font-size: 1.2rem;
+}
+.signin:hover{
+    color: rgb(20, 103, 103);
+}
+.search{
+    float: right;
+    margin-top:-16px;
+}
+.searchbox {
+    border-radius: 0.5em;
+    height: 25px;
+    background-color: rgb(1, 26, 26);
+    border: none;
+    width: 200px;
+    color: white;
+}
+.thumbnail{
+    /*padding-top: 40px;*/
+    height:330px;
+    width:270px;
+    border-radius: 0.6em;
+   
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 40px;
+    padding-top:50px;
+}
+.card{
+    padding: 10px;
+    border-radius: 0.5em;
+    /*background-color: rgb(0, 2, 25);*/
+    background-color: rgb(1, 2, 18);
+    max-height:411px;
+}
+.card :hover{
+    cursor: pointer;
+    h3{
+        color: aqua;
+    }
+}
+h3{
+    color: white;
+    text-align: center;
+    background-color: rgb(1, 2, 18);
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+h1{
+    position:absolute;
+    top: 23%;
+    padding: 20px;
+    margin-left:80px;
+    max-width: 30%;
+    color: rgb(149, 233, 233);
+}
+h2{
+    text-align:left;
+    position:absolute;
+    top: 38%;
+    padding: 20px;
+    margin-left:60px;
+    max-width: 30%;
+    color: aquamarine;
+}
+
+.centre .spider{
+    position: absolute;
+    height: 400px;
+    right: 20%;
+    top:25%;
+    border-radius: 0.8em;
+}
+.centre .spiderr{
+    position: absolute;
+    height: 400px;
+    right: 7%;
+    top:25%;
+    border-radius: 1.6em;
+}
+.centre .panther{
+    position: absolute;
+    height: 400px;
+    right: 44.8%;
+    top:25%;
+    border-radius: 0.7em;
+}
+.sig{
+    position: absolute;
+    top: 4%;
+    left:25%
+}
+.nam{
+    color: aqua;
+    position: absolute;
+    top:20%;
+    left: 10%;
+    padding: 20px;
+    font-size:larger;
+}
+.ema{
+    color: aqua;
+    position: absolute;
+    top:40%;
+    left: 10%;
+    padding: 20px;
+    font-size:larger;
+}
+.pas{
+    color: aqua;
+    position: absolute;
+    top:59%;
+    left: 10%;
+    padding: 20px;
+    font-size:larger;
+}
+.p{
+    border-radius: 0.6em;
+    position: absolute;
+    top:35%;
+    left: 10%;
+    padding: 20px;
+    height: 5px;
+    width: 470px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+}
+.pl{
+    border-radius: 0.6em;
+    position: absolute;
+    top:54%;
+    left: 10%;
+    padding: 20px;
+    height: 5px;
+    width: 470px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+}
+.pla{
+    border-radius: 0.6em;
+    position: absolute;
+    top:73%;
+    left: 10%;
+    padding: 20px;
+    height: 5px;
+    width: 470px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+}
+.btn{
+    border-radius: 0.6em;
+    position: absolute;
+    top:88%;
+    left: 43%;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    font-size: 18px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: aqua;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+.sign{
+    position: absolute;
+    border-radius: 1.6em;
+    top:20%;
+    left:32%;
+    padding: 10px;
+    height: 550px;
+    width: 600px;
+    background-color: black;
+}
+.login{
+    position:absolute;
+    border-radius: 1.6em;
+    top:25%;
+    left:32%;
+    padding: 10px;
+    height: 470px;
+    width: 600px;
+    background-color: black;
+}
+
+.tem{
+    position: absolute;
+    color: aqua;
+    font-size: larger;
+    top: 20%;
+    left: 29%;
+}
+.tem1{
+    position: absolute;
+    color: aqua;
+    font-size: larger;
+    top: 30%;
+    left: 25%;
+}
+.here{
+    position: absolute;
+    color: rgb(246, 246, 65);
+    font-size: larger;
+    top: 34%;
+    left: 63%;
+}
+.btnn{
+    border-radius: 0.9em;
+    position: absolute;
+    top:77%;
+    left: 13%;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: aqua;
+    font-weight: bold;
+}
+.btnn:hover{
+    background-color: aqua;
+    color: black;
+}
+.footer {
+    padding: 15px;
+    background-color: black;
+    position: absolute;
+    top: 88%;
+    width: 100%;  /* <-- make it full width */
+    left: 0;      /* <-- align it to the left edge */
+}
+.foot{
+    text-align: center;
+    align-items: center;
+    color: rgb(151, 210, 239);
+    font-size: 18px;
+}

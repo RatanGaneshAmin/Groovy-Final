@@ -1,0 +1,19 @@
+<!-- include header-->
+<%- include ('include/_header')%>
+<!-- /include header-->
+<form action ="/signup-user" method="POST" id = "signn">
+    <div class = "sign" id ="sign">
+            <b><h1 class="sig">Sign Up</h1></b>
+            <b><p class="nam">Name</p></b>
+            <input type="text" name = "name" placeholder="Enter your Full Name" class="p" required>
+            <b><p class="ema">Email-ID</p></b>
+            <input type="email" name = "email" placeholder="Enter your Email Id" class="pl" required>
+            <b><p class="pas">Password</p></b>
+            <input type="password"  name = "password" placeholder="Enter your Password" class="pla" required>
+            <b><button type="submit" class="btn">Signup</button></b>
+        </div>
+    </div>
+</form>
+<!-- include footer-->
+<%- include ('include/_footer')%>
+<!-- include footer-->
